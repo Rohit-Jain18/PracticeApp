@@ -17,7 +17,7 @@
      android:textSize="30sp"
      android:textStyle="bold"
      android:gravity="center"
-     android:text="@string/terms_and_condition"/>
+     android:text="@string/explicit_intent_and_scrollview"/>
 
 
     <ScrollView

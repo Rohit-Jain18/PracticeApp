@@ -1,29 +1,28 @@
- package com.example.whitebox
+package com.example.whitebox
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
-import android.widget.Button
-import android.widget.LinearLayout
+import android.os.Handler
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 
- class MainActivity : AppCompatActivity() {
+
+class SplashScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+        setContentView(R.layout.activity_splash_screen)
 
+        Handler().postDelayed({
+                              val intent= Intent(this , MainActivity::class.java)
+                              startActivity(intent)
+            finish()
 
-        setContentView(R.layout.activity_main)
-
-val nextPage = findViewById<Button>(R.id.accept)
-
-        nextPage.setOnClickListener(){
-            intent = Intent(applicationContext , EnterDetails:: class.java )
-            startActivity(intent)
-        }
+        },1000)
 
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
@@ -31,9 +30,5 @@ val nextPage = findViewById<Button>(R.id.accept)
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-
-
     }
-
-
- }
+}

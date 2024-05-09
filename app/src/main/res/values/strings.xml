@@ -88,4 +88,18 @@ Although most people consider piranhas to be quite dangerous,</string>
     <string name="i_agree">I Agree</string>
     <string name="welcome_user">Welcome User</string>
     <string name="second_activity">Second Activity</string>
+    <string name="implicit_intent">Implicit Intent</string>
+    <string name="message">Message</string>
+    <string name="contact">Contact</string>
+    <string name="open_cam">Open Cam</string>
+    <string name="open_web">Open Web</string>
+    <string name="dial">Dial</string>
+    <string name="open_app">Open App</string>
+    <string name="explicit_intent">Explicit Intent</string>
+    <string name="explicit_intent_and_scrollview">Explicit Intent and ScrollView</string>
+    <string name="phone">Phone</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="submit">Submit</string>
+    <string name="splash_ghini">Splash GHInI</string>
+    <string name="todo">TODO</string>
 </resources>
