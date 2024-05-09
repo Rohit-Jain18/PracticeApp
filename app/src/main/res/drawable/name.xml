@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-<item android:drawable="">  </item>
+<item >
+    <shape >
+        <gradient android:startColor="#36ACCA"
+            android:centerColor="#0078D8"
+            android:endColor="#0242B1"
+            >
+
+        </gradient>
+    </shape>
+</item>
 </selector>

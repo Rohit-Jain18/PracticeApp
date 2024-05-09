@@ -7,12 +7,12 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#068D98"
+    android:background="@drawable/name"
     tools:context=".SecondActivity">
 
 
     <TextView
-        android:textColor="@color/white"
+        android:textColor="@drawable/name"
         android:gravity="center"
         android:id="@+id/textVw"
         android:layout_width="wrap_content"
@@ -23,7 +23,7 @@
         android:text="@string/implicit_intent"
         />
     <TextView
-        android:textColor="@color/white"
+        android:textColor="@drawable/name"
         android:gravity="center"
         android:id="@+id/txt"
         android:layout_width="wrap_content"
@@ -41,7 +41,7 @@
     <androidx.cardview.widget.CardView
         android:layout_width="150dp"
         android:layout_height="100dp"
-        app:cardBackgroundColor="#C929E4"
+        app:cardBackgroundColor="#2193b0"
         app:cardCornerRadius="20dp"
         android:layout_margin="30dp"
         android:id="@+id/cd1"
